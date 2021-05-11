@@ -1,0 +1,147 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 40px;
+}
+
+.fig1,
+.fig2,
+.fig3 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.fig1 {
+  background-color: #d99694;
+}
+
+.fig2 {
+  background-color: #c4bd97;
+}
+
+.fig3 {
+  background-color: #558ed5;
+}
+
+.figure1,
+.figure2,
+.figure3,
+.figure4 {
+  margin-top: 60px;
+}
+
+.figure3 .fig1 {
+  height: 70px;
+  width: 147px;
+}
+
+.relative .fig1,
+.relative .fig2,
+.relative .fig3 {
+  position: relative;
+}
+
+.relative .figure1 .fig2 {
+  top: 3px;
+}
+
+.relative .figure1 .fig3 {
+  top: 6px;
+}
+
+.relative .figure2 .fig2 {
+  left: 150px;
+  top: 2px;
+}
+
+.relative .figure2 .fig3 {
+  left: 300px;
+  top: 3px;
+}
+.figure3 .fig1{
+  height: 150px;
+  width: 312px;
+}
+.relative .figure3 .fig2 {
+  top: 3px;
+}
+
+.relative .figure3 .fig3 {
+  left: 160px;
+  top: -147px;
+}
+
+.relative .figure4 .fig2 {
+  top: 3px;
+}
+
+.relative .figure4 .fig3 {
+  top: -300px;
+  left: 170px;
+}
+
+.absolute .figure1,
+.absolute .figure2,
+.absolute .figure3,
+.absolute .figure4 {
+height: 600px;
+}
+
+.absolute .figure1 .fig1,
+.absolute .figure1 .fig2,
+.absolute .figure1 .fig3,
+.absolute .figure2 .fig1,
+.absolute .figure2 .fig2,
+.absolute .figure2 .fig3,
+.absolute .figure3 .fig1,
+.absolute .figure3 .fig2,
+.absolute .figure3 .fig3,
+.absolute .figure4 .fig1,
+.absolute .figure4 .fig2,
+.absolute .figure4 .fig3 {
+  position: absolute;
+}
+
+.absolute .figure1 .fig2 {
+  top: 155px;
+
+ 
+}
+
+.absolute .figure1 .fig3 {
+  top: 310px;
+ 
+}
+
+.absolute .figure2 .fig2 {
+  top: 150px;
+  left: 150px;
+}
+
+.absolute .figure2 .fig3 {
+  top: 300px;
+  left: 300px;
+}
+
+.absolute .figure3 .fig2 {
+  top: 160px;
+}
+
+.absolute .figure3 .fig3 {
+  top: 160px;
+  left: 160px;
+}
+
+.absolute .figure4 .fig2 {
+  top: 155px;
+}
+
+.absolute .figure4 .fig3 {
+  left: 160px;
+}
+
+/*# sourceMappingURL=2.css.map */
